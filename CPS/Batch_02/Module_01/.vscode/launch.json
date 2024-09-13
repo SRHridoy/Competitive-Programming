@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "cwd": "d:/Competitive Programming/CPS/Batch_02/Module_01",
+      "program": "d:/Competitive Programming/CPS/Batch_02/Module_01/build/Debug/outDebug",
+      "MIMode": "gdb",
+       "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "logging": {
+        "engineLogging": true  // Enable logging to track the issue
+      }
+    }
+  ]
+}
